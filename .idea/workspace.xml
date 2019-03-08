@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/someEnglish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lrsp_ui_autotest" beforeDir="false" afterPath="$PROJECT_DIR$/../lrsp_ui_autotest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roman_to_integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/roman_to_integer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_visuall/matplotlib_learn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_visuall/tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_visuall/tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/about_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/about_json.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roman_to_integer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
               <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/someEnglish">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -62,13 +76,14 @@
         <option value="$PROJECT_DIR$/cookie_session/python描述cookie和session" />
         <option value="$PROJECT_DIR$/cookie_session/session.py" />
         <option value="$PROJECT_DIR$/roman_to_integer.py" />
+        <option value="$PROJECT_DIR$/someEnglish" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="173" />
-    <option name="width" value="928" />
+    <option name="x" value="1154" />
+    <option name="y" value="183" />
+    <option name="width" value="674" />
     <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -201,10 +216,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="139" width="742" height="610" extended-state="0" />
+    <frame x="1154" y="183" width="674" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31444758" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31348315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,6 +263,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someEnglish">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>

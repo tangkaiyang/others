@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/someEnglish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/015_3Sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrsp_ui_autotest" beforeDir="false" afterPath="$PROJECT_DIR$/../lrsp_ui_autotest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_visuall/matplotlib_learn.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../python_visuall/tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_visuall/tables.py" afterDir="false" />
@@ -23,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookie_session/python描述cookie和session">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="209">
               <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
@@ -32,17 +31,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roman_to_integer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="190">
               <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/someEnglish">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="38">
               <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/015_3Sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -50,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookie_session/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="190">
               <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
@@ -77,12 +85,13 @@
         <option value="$PROJECT_DIR$/cookie_session/session.py" />
         <option value="$PROJECT_DIR$/roman_to_integer.py" />
         <option value="$PROJECT_DIR$/someEnglish" />
+        <option value="$PROJECT_DIR$/LeetCode/015_3Sum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="616" />
-    <option name="y" value="175" />
+    <option name="x" value="997" />
+    <option name="y" value="70" />
     <option name="width" value="674" />
     <option name="height" value="763" />
   </component>
@@ -92,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,10 +108,16 @@
               <item name="others" type="b2602c69:ProjectViewProjectNode" />
               <item name="others" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="others" type="b2602c69:ProjectViewProjectNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,10 +230,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1154" y="183" width="674" height="763" extended-state="0" />
-    <editor active="true" />
+    <frame x="997" y="70" width="674" height="763" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31348315" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3128931" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,29 +260,36 @@
     <entry file="file://$PROJECT_DIR$/cookie.py" />
     <entry file="file://$PROJECT_DIR$/cookie_session/python描述cookie和session">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="209">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookie_session/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/roman_to_integer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="190">
           <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookie_session/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/someEnglish">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
+        <state relative-caret-position="38">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/015_3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>

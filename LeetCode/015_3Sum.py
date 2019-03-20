@@ -14,7 +14,7 @@ def threeSum(nums):
     :rtype: List[List[int]]
     """
     results = []
-    nums.sorts()
+    nums.sort()
 
     i = 0
     while i < len(nums):
@@ -44,3 +44,6 @@ def threeSum(nums):
         while i < len(nums) - 2 and nums[i] == nums[i - 1]:
             i += 1
     return results
+
+
+print(threeSum([-1, -1, 0, 1, 2, 3, -5, -11, 10, 2, 4]))

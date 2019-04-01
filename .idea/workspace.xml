@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/图解HTTP/图解HTTP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrsp_ui_autotest" beforeDir="false" afterPath="$PROJECT_DIR$/../lrsp_ui_autotest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt" beforeDir="false" afterPath="$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +13,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/图解HTTP/第1章了解Web及网络基础.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/图解HTTP/图解HTTP">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -43,6 +55,7 @@
         <option value="$PROJECT_DIR$/LeetCode/015_3Sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/018_4Sum.py" />
         <option value="$PROJECT_DIR$/图解HTTP/图解HTTP" />
+        <option value="$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt" />
       </list>
     </option>
   </component>
@@ -232,7 +245,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="945" y="0" width="884" height="994" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31205675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,8 +314,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图解HTTP/图解HTTP">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/图解HTTP/第1章了解Web及网络基础.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

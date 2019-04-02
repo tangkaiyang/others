@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lrsp_ui_autotest" beforeDir="false" afterPath="$PROJECT_DIR$/../lrsp_ui_autotest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图解HTTP/第4章返回结果的HTTP状态码.txt" beforeDir="false" afterPath="$PROJECT_DIR$/图解HTTP/第4章返回结果的HTTP状态码.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="93" column="28" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+            <state relative-caret-position="2451">
+              <caret line="118" column="2" lean-forward="true" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1121">
+              <caret line="112" column="22" lean-forward="true" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/图解HTTP/第4章返回结果的HTTP状态码.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -49,6 +66,7 @@
         <option value="$PROJECT_DIR$/图解HTTP/图解HTTP" />
         <option value="$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt" />
         <option value="$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息" />
+        <option value="$PROJECT_DIR$/图解HTTP/第4章返回结果的HTTP状态码.txt" />
       </list>
     </option>
   </component>
@@ -290,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="112" column="22" lean-forward="true" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/图解HTTP/第1章了解Web及网络基础.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-741">
@@ -304,10 +315,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息">
+    <entry file="file://$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="93" column="28" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+        <state relative-caret-position="2451">
+          <caret line="118" column="2" lean-forward="true" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图解HTTP/第2章 简单的HTTP协议.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="112" column="22" lean-forward="true" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图解HTTP/第4章返回结果的HTTP状态码.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>

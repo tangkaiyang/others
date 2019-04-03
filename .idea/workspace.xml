@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../lrsp_ui_autotest" beforeDir="false" afterPath="$PROJECT_DIR$/../lrsp_ui_autotest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt" beforeDir="false" afterPath="$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="511" column="12" selection-start-line="511" selection-start-column="12" selection-end-line="511" selection-end-column="12" />
+            <state relative-caret-position="797">
+              <caret line="546" selection-start-line="546" selection-end-line="546" />
             </state>
           </provider>
         </entry>
@@ -224,7 +223,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="945" y="0" width="884" height="994" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31205675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="511" column="12" selection-start-line="511" selection-start-column="12" selection-end-line="511" selection-end-column="12" />
+        <state relative-caret-position="797">
+          <caret line="546" selection-start-line="546" selection-end-line="546" />
         </state>
       </provider>
     </entry>

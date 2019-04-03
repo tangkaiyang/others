@@ -544,3 +544,97 @@ ETag: "usgi-1234"
 弱ETag值,只用于提示资源是否想同.只有资源发生了根本改变,产生差异时才会改变ETag值.
 字段值最开始处附加W/
 ETag: W/"usagi-1234"
+6.5.4 Location
+Location: http://www.usagidesign.jp/sample.html
+使用首部字段Location可以将响应接收方引导至某个与请求URI位置不同的资源
+基本上,该字段会配合3xx:Redirection的响应,提供重定向的URI
+几乎所有的浏览器在接收到包含首部字段Location的响应后,都会强制性地尝试对已提示的重定向资源的访问
+6.5.5 Proxy-Authenticate
+Proxy-Authenticate: Basic realm="Usagidesign Auth"
+首部字段Proxy-Authenticate会把由代理服务器所要求的认证信息发送给客户端
+它与客户端和服务器之间的HTTP访问认证的行为相似,不同之处在于
+其认证行为是客户端与代理之间进行的.而客户端与服务器之间进行认证时,
+首部字段WWW-Authorization有着相同的作用.
+6.5.6 Retry-After
+Retry-After: 120
+首部字段Retry-After告知客户端应该在多久之后再次发送请求.
+主要配合状态码503 Service Unavailable响应,或3XX Redirect响应一起使用
+字段值可以指定为具体的日期时间(Wed, 04 Jul 2012 06: 34: 24 GMT等格式)
+也可以是创建响应后的秒数
+6.5.7 Server
+Server: Apache/2.2.17 (Unix)
+首部字段Server告知客户端当前服务器上安装的HTTP服务器应用程序信息.
+不单单会标出服务器上的软件应用名称,还有可能包括版本号和安装时启用的可选项.
+Server: Apache/2.2.6 (Unix) PHP/5.2.5
+6.5.8 Vary
+Vary: Accept-Language
+首部字段Vary可对缓存进行控制.源服务器会向代理服务器传达关于本地缓存使用方法的命令
+从代理服务器接收到源服务器返回包含Vary指定项的响应之后,若再要进行缓存,
+进队请求中含义相同vary指定首部字段的请求返回缓存.
+即使对相同资源发起请求,但由于Vary指定的首部字段不相同,
+因此必须要从源服务器重新获取资源
+6.5.9 WWW-Authenticate
+WWW-Authenticate: Basic realm="Usagidesign Auth"
+首部字段WWW-Authenticate用于HTTP访问认证.
+它会告知客户端适用于访问请求URI所制定资源的认证方案(Basic或Digest)和带参数提示的质询(callenge).状态码401 Unauthorized响应中,
+肯定带有首部字段WWW-Authenticate
+
+6.6 实体首部字段
+实体首部字段是包含在请求报文和响应报文中的实体部分所使用的首部,
+用于补充内容的更新时间等与实体相关的信息
+6.6.1 Allow: GET, HEAD
+首部字段Allow用于通知客户端能够支持Request-URI指定资源的所有HTTP方法.
+当服务器接受到不支持的HTTP方法时,会以状态码405 Method Not Allowed作为响应返回.
+与此同时,还会把所有能支持的HTTP方法写入首部字段Allow后返回
+6.6.2 Content-Encoding: gzip
+首部字段Content-Encoding会告知客户端服务器对实体的主体部分选用的内容编码方式.
+内容编码是指在不丢失实体信息的前提下所进行的压缩.
+主要采用以下4种内容编码方式:gzip,compress,deflate,identity
+6.6.3 Content-Language: zh-CN
+首部字段Content-Language会告知客户端,实体主体使用的自然语言(指中文或英文等语言)
+6.6.4 Content-Length: 15000
+首部字段Content-Length表明了实体主体部分的大小(单位是字节).
+对实体主体进行内容编码传输时,不能再使用Content-Length首部字段.
+6.6.5 Content-Location: http://www.hackr.jp/index-ja.html
+首部字段Content-Location给出与报文主体部分相对应的URI.和首部字段Location不同,
+Content-Location表示的是报文主体返回资源对应的URI
+6.6.6 Content-MD5: OGFkZDUwNGVhNGY3N2MxMDIwZmQ4NTBmY2IyTY==
+首部字段Content-MD5是一串有MD5算法生成的值,其目的在于检查该报文主体在传输过程中是否保持完整,以及确认传输到达
+6.6.7 Content-Range: bytes 5001-10000/10000
+针对范围请求,返回响应时使用的首部字段Content-Range,能告知客户端作为响应返回的实体的哪个部分符合范围请求.
+字段值以字节为单位,表示当前发送部分及整个实体大小
+6.6.8 Content-Type: text/html; charset=UTF-8
+首部字段Content-Type说明了实体主体内对象的媒体类型.和首部字段Accept一样,字段值用type/subtype形式赋值
+参数charset使用iso-8859-1或euc-jp等字符集进行赋值
+6.6.9 Expires: Wed, 04 Jul 2012 08:26:05 GMT
+首部字段Expires会将资源失效的日期告知客户端.缓存服务器在接收到含有首部字段Expires的响应后,
+会以缓存来应答请求,在Expires字段值指定的时间之内,响应的副本会一直被保存.当超过指定的时间后,
+缓存服务器在请求发送过来时,会转向源服务器请求资源.
+源服务器不希望缓存服务器对资源缓存时,最好在Expires字段内写入与首部字段Date相同的时间值.
+但是,当首部字段Cache-Control有指定max-age指令时,比起首部字段Expires,会优先处理max-age指令
+6.6.10 Last-Modified: Wed, 04 Jul 2012 08:26:05 GMT
+首部字段Last-Modified指明资源最终修改时间.一般来说,这个值就是Request-URI指定资源被修改的时间.
+但类似使用CGI脚本进行动态数据处理时,该值可能会变成数据最终修改时的时间
+
+6.7 为Cookie服务的首部字段
+管理服务器与客户端之间状态的Cookie
+Cookie的工作机制是用户识别及状态管理.Web网站为了管理用户的状态会通过Web浏览器,把一些数据临时
+写入用户的计算机内.接着当用户访问该Web网站时,可通过通信方式取回之前发放的Cookie
+调用Cookie时,由于可校验Cookie的有效期,以及发送方的域,路径,协议等信息,所以正规发布的Cookie内
+的数据不会因为来自其他Web站点和攻击者的攻击而泄露
+为Cookie服务的首部字段
+首部字段名       说明                              首部类型
+Set-Cookie      开始状态管理所使用的的Cookie信息     响应首部字段
+Cookie          服务器接收到的Cookie信息             请求首部字段
+6.7.1 Set-Cookie: status=enable; expires=Tue, 04 Jul 2012 08:26:05 GMT
+当服务器准备开始管理客户端的状态时,会事先告知各种信息.
+Set-Cookie字段的属性
+属性                  说明
+NAME=VALUE      赋予Cookie的名称和其值(必需项)
+expires=DATE    Cookie的有效期(若不明确指定则默认为浏览器关闭前为止)
+path=PATH       将服务器上的文件目录作为Cookie的适用对象(若不指定则默认为文档所在的文件目录)
+domain=域名     作为Cookie适用对象的域名(若不指定则默认为创建Cookie的服务器域名)
+Secure          仅在HTTPS安全通信时才会发送Cookie
+HttpOnly        加以限制,使Cookie不能被JavaScript脚本访问
+Cookie从服务端发送至客户端,服务端就不存在可以显式删除Cookie的方法,但可通过覆盖已过期的Cookie
+domain属性:与结尾匹配一致.当指定example.com后www.example.com,www2.example.com都可以发送Cookie

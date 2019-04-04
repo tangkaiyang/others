@@ -638,3 +638,27 @@ Secure          仅在HTTPS安全通信时才会发送Cookie
 HttpOnly        加以限制,使Cookie不能被JavaScript脚本访问
 Cookie从服务端发送至客户端,服务端就不存在可以显式删除Cookie的方法,但可通过覆盖已过期的Cookie
 domain属性:与结尾匹配一致.当指定example.com后www.example.com,www2.example.com都可以发送Cookie
+HttpOnly属性:Cookie的HttpOnly属性是Cookie的扩展功能,它使JavaScript脚本无法获得Cookie.
+其主要目的是为了防止跨站脚本攻击(Cross-site scripting, XSS)对Cookie的信息窃取
+6.7.2 Cookie: status=enable
+首部字段Cookie会告知服务器,当客户端想获得HTTP状态管理支持时,就会在请求中包含从服务器接受到的Cookie.
+接收到多个Cookie时,同样可以以多个Cookie形式发送
+
+6.8 其他首部字段
+HTTP首部字段是可以自行扩展的.所以在Web服务器和浏览器的应用上,会出现各种非标准的首部字段
+常用的首部字段:
+6.8.1 X-Frame-Options: DENY
+属于HTTP响应首部,用于控制网站内容在其他Web网站的Frame标签内的显示问题.
+其主要目的是为了防止点击劫持(clickjacking)攻击
+首部字段X-Frame-Options有一下两个可指定的字段值
+DENY: 拒绝
+SAMEORIGIN:仅同源域名下的页面(Top-level-browsing-context)匹配时许可
+(比如,当指定http://hackr.jp/sample.html页面未SAMEORIGIN时,那么hackr.jp上所有页面的frame都被允许可加载该页面,而example.com等其他域名的页面就不行了)
+6.8.2 X-XSS-Protection: 1
+首部字段X-XSS-Protection属于HTTP响应首部,它是针对跨站脚本攻击(XSS)的一种对策,用于控制浏览器XSS防护机制的开关.
+0:将XSS过滤设置成无效状态,1设置成有效状态
+6.8.3 DNT: 1
+首部字段属于HTTP请求首部,其中DNT是Do Not Track的简称,意为拒绝个人信息被收集,是表示拒绝被精准广告追踪的一种方法.
+0:同意被追踪;1:拒绝被追踪
+6.8.4 P3P: CP="CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS I.."
+首部字段P3P属于HTTP响应首部,通过利用P3P(The Platform for Privacy Preferences,在线隐私偏好平台)技术,可以让Web网站上的个人隐私变成一种仅供程序可理解的形式,已达到保护用户隐私的目的.

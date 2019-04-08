@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d12503-d3fd-4f0d-b09d-2d1beab3d132" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章确认访问用户身份的认证.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第9章基于HTTP的功能追加协议.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第6章HTTP首部.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13326" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt">
+        <entry file="file://$PROJECT_DIR$/第9章基于HTTP的功能追加协议.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
-              <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+            <state relative-caret-position="843">
+              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -37,6 +32,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" />
+        <option value="$PROJECT_DIR$/第8章确认访问用户身份的认证.txt" />
+        <option value="$PROJECT_DIR$/第9章基于HTTP的功能追加协议.txt" />
       </list>
     </option>
   </component>
@@ -119,15 +116,31 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第6章HTTP首部.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13326" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="824">
           <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第8章确认访问用户身份的认证.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第6章HTTP首部.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10367">
+          <caret line="86" column="51" lean-forward="true" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第9章基于HTTP的功能追加协议.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
         </state>
       </provider>
     </entry>

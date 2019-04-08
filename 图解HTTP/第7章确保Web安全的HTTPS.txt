@@ -95,4 +95,27 @@ HTTPS采用混合加密机制
 一旦验证通过,客户端便可明确两件事:
 一.认证服务器的公开密钥的是真实有效的数字证书认证机构
 二.服务器的公开密钥是值的信赖的.
+此处认证机关的公开密钥必须安全的转交给客户端.使用通信方式时,如何安全转交是一件很困难的事,
+因此,多数浏览器开发商发布版本时,会事先在内部植入常用认证机关的公开密钥
 
+可证明组织真实性的EV SSL证书
+用以确认客户端的客户端证书
+认证机构信誉第一
+由自认证机构颁发的证书称为自签名证书:OpenSSL,每个人都可以构建一套属于自己的认证机构,从而自己给自己颁发服务器证书.
+
+7.2.5 HTTPS的安全通信机制
+client-----------------------server
+1)-- Handshake:ClientHello ->
+2)<- Handshake:ServerHello --
+3)<- Handshake:Certificate --
+4)<- Handshake:ServerHelloDone --
+5)-- Handshake:ClientKeyExchange ->
+6)-- ChangeCipherSpec ->
+7)-- Handshake:Finished ->
+8)<- ChangeCipherSpec --
+9)<- Handshake:Finished --
+10)-- Application Date(HTTP) ->
+11)<- Application Date(HTTP) --
+12)-- Alert:warning, close notify -->
+应用层发送数据时会附加一种叫做MAC(Message Authentication Code)的报文摘要
+CBC模式(Cipher Block Chaining)密码分组链接模式.

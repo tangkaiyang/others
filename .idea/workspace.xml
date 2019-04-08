@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../lrsp_ui_autotest" beforeDir="false" afterPath="$PROJECT_DIR$/../lrsp_ui_autotest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt" beforeDir="false" afterPath="$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt">
+        <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="663" column="117" selection-start-line="663" selection-start-column="117" selection-end-line="663" selection-end-column="117" />
+            <state relative-caret-position="600">
+              <caret line="97" selection-start-line="97" selection-end-line="97" />
             </state>
           </provider>
         </entry>
@@ -52,13 +52,14 @@
         <option value="$PROJECT_DIR$/图解HTTP/第5章与HTTP协作的Web服务器.txt" />
         <option value="$PROJECT_DIR$/图解HTTP/第3章HTTP报文内的HTTP信息.txt" />
         <option value="$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt" />
+        <option value="$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="874" />
-    <option name="y" value="26" />
-    <option name="width" value="1048" />
+    <option name="x" value="900" />
+    <option name="y" value="15" />
+    <option name="width" value="1050" />
     <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +67,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="others" type="b2602c69:ProjectViewProjectNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -223,9 +237,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="874" y="26" width="1048" height="995" extended-state="0" />
+    <frame x="720" y="12" width="840" height="796" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31205675" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31094527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,8 +344,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="663" column="117" selection-start-line="663" selection-start-column="117" selection-end-line="663" selection-end-column="117" />
+        <state relative-caret-position="-46">
+          <caret line="639" column="75" selection-start-line="639" selection-start-column="75" selection-end-line="639" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>

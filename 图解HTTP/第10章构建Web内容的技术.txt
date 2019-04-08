@@ -1,0 +1,21 @@
+第10章构建Web内容的技术
+10.1 HTML
+HTML(HyperText Markup Language,超文本标记语言)是为了发送Web上的超文本(Hypertext)而开发的标记语言.
+超文本是一种文档系统,可将文档中任意位置的信息与其他信息(文本或图片等)建立关联,
+即超文本链接.标记语言是指通过在文档的某部分穿插特别的字符串标签,用来修饰文档的语言.
+我们把出现在HTML文档内这种特殊字符串叫做HTML标签(Tag)
+有HTML构成的文档经过浏览器的解析,渲染后,呈现出来的结果就是Web页面
+10.1.2 HTML版本
+HTML5标准不仅解决了浏览器之间的兼容性问题,并且可把文本作为数据对待,更容易复用,动画效果也更生动
+10.1.3 设计应用CSS
+CSS(Cascading Style Sheets,层叠样式表)可以指定如何展现HTML内的各种元素,
+属于样式标准之一.即使是相同的HTML文档,
+通过改变应用的CSS,用浏览器看到的衙门外观也会随之改变.
+CSS的理念就是让文档结构和设计分离,达到解耦的目的
+10.2 动态 HTML
+10.2.1 让Web页面动起来的动态HTML
+所谓动态HTML(Dynamic HTML),是指使用客户端脚本语言将静态HTML内容变成动态的技术的总称.
+动态HTML技术是通过调用客户端脚本语言JavaScript,实现对HTML的Web页面的动态改造.
+利用DOM(Document Object Model,文档对象模型)可指定欲发生动态变化的 HTML元素
+10.2.2 更易控制HTML的DOM
+DOM是以操作HTML文档和XML文档的API(Application Programming Interface,应用编程接口)

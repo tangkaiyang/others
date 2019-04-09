@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt" beforeDir="false" afterPath="$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="617">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -58,9 +58,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,7 +224,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="760" y="0" width="783" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31094527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -339,8 +340,8 @@
     <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" />
     <entry file="file://$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="617">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

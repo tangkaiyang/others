@@ -19,3 +19,19 @@ CSS的理念就是让文档结构和设计分离,达到解耦的目的
 利用DOM(Document Object Model,文档对象模型)可指定欲发生动态变化的 HTML元素
 10.2.2 更易控制HTML的DOM
 DOM是以操作HTML文档和XML文档的API(Application Programming Interface,应用编程接口)
+使用DOM可以将HTML内的元素当做对象操作.如取出元素内的字符串,改变那个CSS的属性等,使页面的设计发生改变
+10.3 Web应用
+10.3.2 与Web服务器及程序协作的CGI
+CGI(Common Gateway Interface,通用网关接口)是指
+Web服务器在接受到客户端法来的请求后转发给程序的一组机制.
+10.3.3 因Java而普及的Servlet
+10.4 数据发布的格式及语言
+10.4.1 可扩展标记语言
+XML(eXtensible Markup Language,可扩展标记语言)
+由于XML的结构基本上都是用标签分割而成的树形结构,因此通过语法分析器(Parser)的解析功能
+解析XML结构并取出数据元素,可更容易地对数据进行读取
+10.4.2 发布更新信息的RSS/Atom
+RSS(简易信息聚合,也叫聚合内容)和Atom都是发布新闻或博客日志
+等更新信息文档的格式的总称
+10.4.3 JavaScript衍生的轻量级医用JSON
+JSON(JavaScript Object Notation)

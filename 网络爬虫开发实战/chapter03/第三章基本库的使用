@@ -1,0 +1,30 @@
+第三章 基本库的使用
+3.1使用urllib
+Python内置的HTTP请求库,有如下4个模块:
+# request:
+# error
+# parse
+# robotparser
+3.1.1 发送请求
+urllib.request
+1.urlopen()
+urllib.request模块提供了最基本的构造HTTP请求的方法,利用它可以模拟浏览器的一个请求发起过程,同时它还带有处理
+授权验证(authentication),重定向(redirection),浏览器Cookies以及其它内容
+urllib_test.py
+urlopen()函数的API:
+urlopen(url, data=None, timeout=socket._GLOBAL_DEFAULT_TIMEOUT,
+            *, cafile=None, capath=None, cadefault=False, context=None):
+data:可选,如果要添加该参数,并且如果它时字节流编码格式的内容,即bytes类型,
+则需要通过bytes()方法转化.另外,如果传递了这个参数,则它的请求方式就不再时GET方式,而是POST方式.
+
+URI格式:http://user:pass@www.example.jp:80/dir/index.htm?uid=1#ch1
+timeout:可以通过设置这个超时时间来控制一个网页如果长时间未响应,就跳过它的抓取.
+其他参数:
+context参数,必须时ssl.SSLContext类型,用来指定SSL设置
+cafile和capath分别指定CA证书和它的路径,这个再请求HTTPS链接时会有用
+cadedault参数现在已弃用默认为False
+2.Request
+如果需要再请求中加入Headers等信息,就可以利用Request类
+request_test.py
+Request的构造方法:
+class urllib.request.Request(url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None)

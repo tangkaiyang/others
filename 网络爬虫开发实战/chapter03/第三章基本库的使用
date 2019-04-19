@@ -28,3 +28,6 @@ cadedault参数现在已弃用默认为False
 request_test.py
 Request的构造方法:
 class urllib.request.Request(url, data=None, headers={}, origin_req_host=None, unverifiable=False, method=None)
+# 第一个参数url用于请求URL,
+# data如果要传,必须传bytes(字节流)类型的.如果它是字典,可以先用urllib.parse模块里的urlencode()编码
+# headers参数是一个字典,它就是请求头,

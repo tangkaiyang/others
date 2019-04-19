@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="608">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter02/第二章爬虫基础.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="88" column="58" lean-forward="true" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -29,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -37,17 +46,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/Lib/urllib/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="326" column="29" selection-start-line="324" selection-start-column="16" selection-end-line="326" selection-end-column="29" />
+            <state relative-caret-position="235">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="e#165#191#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,15 +93,16 @@
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter01/test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter02/helloworld.html" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter02/第二章爬虫基础.txt" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="736" />
-    <option name="width" value="1193" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="843" />
+    <option name="y" value="4" />
+    <option name="width" value="1064" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,43 +110,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter03" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,8 +277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="0" width="1193" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31082252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24935065" />
@@ -318,7 +291,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289183" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.21776815" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -444,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter02/第二章爬虫基础.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter02/helloworld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -458,31 +424,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda3/Lib/urllib/request.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/Lib/urllib/request.py">
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="326" column="29" selection-start-line="324" selection-start-column="16" selection-end-line="326" selection-end-column="29" />
+        <state relative-caret-position="235">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#165#191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="608">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter02/第二章爬虫基础.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="88" column="58" lean-forward="true" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
         </state>
       </provider>
     </entry>

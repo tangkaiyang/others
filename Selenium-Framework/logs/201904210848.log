@@ -1,0 +1,19 @@
+2019-04-21 08:48:21,224 - BrowserEngine - INFO - You had select Firefox browser.
+2019-04-21 08:48:21,224 - BrowserEngine - INFO - The test server url is: https://www.baidu.com
+2019-04-21 08:48:23,956 - BrowserEngine - INFO - Starting firefox browser.
+2019-04-21 08:48:24,629 - BrowserEngine - INFO - Open url: https://www.baidu.com
+2019-04-21 08:48:24,887 - BrowserEngine - INFO - Maximize the current window.
+2019-04-21 08:48:24,893 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-04-21 08:48:25,120 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-04-21 08:48:25,386 - BasePage - INFO - The element '  ' was clicked.
+2019-04-21 08:48:27,491 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-04-21 08:48:27,571 - BasePage - INFO - Had type ' python ' in inputBox
+2019-04-21 08:48:27,819 - BasePage - INFO - The element '  ' was clicked.
+2019-04-21 08:48:29,915 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-04-21 08:48:30,687 - BrowserEngine - INFO - You had select Firefox browser.
+2019-04-21 08:48:30,688 - BrowserEngine - INFO - The test server url is: https://www.baidu.com
+2019-04-21 08:48:32,961 - BrowserEngine - INFO - Starting firefox browser.
+2019-04-21 08:48:33,984 - BrowserEngine - INFO - Open url: https://www.baidu.com
+2019-04-21 08:48:34,257 - BrowserEngine - INFO - Maximize the current window.
+2019-04-21 08:48:34,263 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-04-21 08:48:34,268 - BasePage - INFO - Current page title is 百度一下，你就知道

@@ -1,0 +1,13 @@
+2019-04-21 08:46:52,170 - BrowserEngine - INFO - You had select Firefox browser.
+2019-04-21 08:46:52,170 - BrowserEngine - INFO - The test server url is: https://www.baidu.com
+2019-04-21 08:46:54,890 - BrowserEngine - INFO - Starting firefox browser.
+2019-04-21 08:46:55,953 - BrowserEngine - INFO - Open url: https://www.baidu.com
+2019-04-21 08:46:56,217 - BrowserEngine - INFO - Maximize the current window.
+2019-04-21 08:46:56,223 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-04-21 08:46:57,062 - BrowserEngine - INFO - You had select Firefox browser.
+2019-04-21 08:46:57,062 - BrowserEngine - INFO - The test server url is: https://www.baidu.com
+2019-04-21 08:46:59,739 - BrowserEngine - INFO - Starting firefox browser.
+2019-04-21 08:47:00,579 - BrowserEngine - INFO - Open url: https://www.baidu.com
+2019-04-21 08:47:00,851 - BrowserEngine - INFO - Maximize the current window.
+2019-04-21 08:47:00,857 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-04-21 08:47:00,872 - BasePage - INFO - Current page title is 百度一下，你就知道

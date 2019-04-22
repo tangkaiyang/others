@@ -155,94 +155,111 @@
 # requests.get('https://www.taobao.com', proxies=proxies)
 
 # 6.超时设置
-import requests
-# import urllib3
-# urllib3.disable_warnings()
-# r = requests.get('https://www.taobao.com', timeout=1, verify=False)
-# print(r.status_code)
-# 实际上,请求分为两个阶段,即连接(connect)和读取(read)
-# 上面设置的timeout将用作连接和读取这二者的timeout总和
-# 如果要分别制定,就可以传入一个元组
-# r = requests.get('https://www.taobao.com', timeout=(5, 11), verify=False)
-# print(r.status_code)
-# 如果想要永久等待,可以直接将timeout设置为None,或者不设置直接留空,因为默认为None.
-# 这样的话,如果服务器还在运行,但是响应特别慢,那就慢慢等吧,它永远不会返回超时错误的.
-# r = requests.get('https://www.taobao.com', timeout=None, verify=False)
-# print(r.status_code)
-# 7.身份认证
-# 使用requests自带的身份认证功能
 # import requests
-# from requests.auth import HTTPBasicAuth
-# r = requests.get('http://localhost:5000', auth=HTTPBasicAuth('username', 'password'))
-# print(r.status_code)
-# 认证成功返回200,失败返回400
-# 更简单的写法,直接传一个元组,默认使用HTTPBasicAuth这个类来认证
-# import requests
-# r = requests.get('http://localhost:5000', auth=('username', 'password'))
-# print(r.status_code)
-# 8.Prepared Request
-# from requests import Request, Session
-# url = 'http://httpbin.org/post'
-# data = {
-#     'name': 'germey'
-# }
-# headers = {
-#     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'
-# }
-# s = Session()
-# req = Request('POST', url, data=data, headers=headers)
-# prepared = s.prepare_request(req)
-# r = s.send(prepared)
-# print(r.text)
-# 这里引入了Request,然后用url,data和headers参数构造了一个Request对象,这时需要再调用Session的prepare_request()方法将其转换为一个Prepared Request对象,然后调用send()方法发送即可
-# 有了Request这个对象,就可以将请求当做独立的对象来看待,这样在进行队列调度时会非常方便
-# 3.3正则表达式
-# 2.match()
-# import re
-
-# content = 'Hello 123 4567 World_This is a Regex Demo'
-# content = 'Hello 1234567 World_This is a Regex Demo'
-# print(len(content))
-# result = re.match('^Hello\s\d\d\d\s\d{4}\s\w{10}', content)
-# print(type(result)) # re.Match对象
-# print(result)
-# print(result.group()) # 输出匹配的内容
-# print(result.span()) # 输出匹配的范围
-# 匹配目标,从匹配的字符串中提取一部分内容,使用()将想提取的子字符串括起来.
-# ()实际上标记了一个子表达式的开始和结束位置,,被标记的每个子表达式会依次对应每一个分组,调用group()方法传入分组的索引即可获取提取的结果
-# result = re.match(r"^Hello\s(\d+)\sWorld", content)
-# print(result)
-# print(result.group())  # 输出完整的匹配结果
-# print(result.group(1))  # 输出第一个被()包围的匹配结果
-# print(result.span())
-# 通用匹配
-# import re
-# content = 'Hello 123 4567 World_This is a Regex Demo'
-# result = re.match(r'^Hello.*Demo$', content)
-# print(result)
-# print(result.group())
-# print(result.span())
-# 贪婪与非贪婪
-# import re
+# # import urllib3
+# # urllib3.disable_warnings()
+# # r = requests.get('https://www.taobao.com', timeout=1, verify=False)
+# # print(r.status_code)
+# # 实际上,请求分为两个阶段,即连接(connect)和读取(read)
+# # 上面设置的timeout将用作连接和读取这二者的timeout总和
+# # 如果要分别制定,就可以传入一个元组
+# # r = requests.get('https://www.taobao.com', timeout=(5, 11), verify=False)
+# # print(r.status_code)
+# # 如果想要永久等待,可以直接将timeout设置为None,或者不设置直接留空,因为默认为None.
+# # 这样的话,如果服务器还在运行,但是响应特别慢,那就慢慢等吧,它永远不会返回超时错误的.
+# # r = requests.get('https://www.taobao.com', timeout=None, verify=False)
+# # print(r.status_code)
+# # 7.身份认证
+# # 使用requests自带的身份认证功能
+# # import requests
+# # from requests.auth import HTTPBasicAuth
+# # r = requests.get('http://localhost:5000', auth=HTTPBasicAuth('username', 'password'))
+# # print(r.status_code)
+# # 认证成功返回200,失败返回400
+# # 更简单的写法,直接传一个元组,默认使用HTTPBasicAuth这个类来认证
+# # import requests
+# # r = requests.get('http://localhost:5000', auth=('username', 'password'))
+# # print(r.status_code)
+# # 8.Prepared Request
+# # from requests import Request, Session
+# # url = 'http://httpbin.org/post'
+# # data = {
+# #     'name': 'germey'
+# # }
+# # headers = {
+# #     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'
+# # }
+# # s = Session()
+# # req = Request('POST', url, data=data, headers=headers)
+# # prepared = s.prepare_request(req)
+# # r = s.send(prepared)
+# # print(r.text)
+# # 这里引入了Request,然后用url,data和headers参数构造了一个Request对象,这时需要再调用Session的prepare_request()方法将其转换为一个Prepared Request对象,然后调用send()方法发送即可
+# # 有了Request这个对象,就可以将请求当做独立的对象来看待,这样在进行队列调度时会非常方便
+# # 3.3正则表达式
+# # 2.match()
+# # import re
 #
-# content = 'Hello 1234567 World_This is a Regex Demo'
-# result = re.match('^He.*(\d+).*Demo$', content)
-# result = re.match('^He.*?(\d+).*Demo$', content)
-# print(result)
-# print(result.group(1))
-# 贪婪匹配下,.*会匹配尽可能多的字符
-# 非贪婪,.*?,在做匹配的时候,字符串中间尽量使用非贪婪匹配,也就是用.*?代替.*,以免出现匹配结果缺失的情况
-# 注意:如果匹配的结果在字符串结尾,.*?就可能匹配不到任何内容了,因为它会匹配尽可能少的字符
+# # content = 'Hello 123 4567 World_This is a Regex Demo'
+# # content = 'Hello 1234567 World_This is a Regex Demo'
+# # print(len(content))
+# # result = re.match('^Hello\s\d\d\d\s\d{4}\s\w{10}', content)
+# # print(type(result)) # re.Match对象
+# # print(result)
+# # print(result.group()) # 输出匹配的内容
+# # print(result.span()) # 输出匹配的范围
+# # 匹配目标,从匹配的字符串中提取一部分内容,使用()将想提取的子字符串括起来.
+# # ()实际上标记了一个子表达式的开始和结束位置,,被标记的每个子表达式会依次对应每一个分组,调用group()方法传入分组的索引即可获取提取的结果
+# # result = re.match(r"^Hello\s(\d+)\sWorld", content)
+# # print(result)
+# # print(result.group())  # 输出完整的匹配结果
+# # print(result.group(1))  # 输出第一个被()包围的匹配结果
+# # print(result.span())
+# # 通用匹配
+# # import re
+# # content = 'Hello 123 4567 World_This is a Regex Demo'
+# # result = re.match(r'^Hello.*Demo$', content)
+# # print(result)
+# # print(result.group())
+# # print(result.span())
+# # 贪婪与非贪婪
+# # import re
+# #
+# # content = 'Hello 1234567 World_This is a Regex Demo'
+# # result = re.match('^He.*(\d+).*Demo$', content)
+# # result = re.match('^He.*?(\d+).*Demo$', content)
+# # print(result)
+# # print(result.group(1))
+# # 贪婪匹配下,.*会匹配尽可能多的字符
+# # 非贪婪,.*?,在做匹配的时候,字符串中间尽量使用非贪婪匹配,也就是用.*?代替.*,以免出现匹配结果缺失的情况
+# # 注意:如果匹配的结果在字符串结尾,.*?就可能匹配不到任何内容了,因为它会匹配尽可能少的字符
+# # import re
+# # content = 'http://weibo.com/comment/kEraCN'
+# # result1 = re.match(r'http.*?comment/(.*?)', content)
+# # result2 = re.match(r'http.*?comment/(.*)', content)
+# # print('result1', result1.group(1))
+# # print('result2', result2.group(1))
+# # 修饰符
 # import re
-# content = 'http://weibo.com/comment/kEraCN'
-# result1 = re.match(r'http.*?comment/(.*?)', content)
-# result2 = re.match(r'http.*?comment/(.*)', content)
-# print('result1', result1.group(1))
-# print('result2', result2.group(1))
-# 修饰符
-import re
-content = '''Hello 1234567 World_This
-is a Regex Demo'''
-result = re.match('^He.*?(\d+).*?Demo$', content, re.S)
-print(result)
+# content = '''Hello 1234567 World_This
+# is a Regex Demo'''
+# result = re.match('^He.*?(\d+).*?Demo$', content, re.S)
+# print(result)
 # 加了一个换行符,匹配不到,因为,匹配的是除换行符之外的任意字符,当遇到换行符时,.*?就不能匹配了,所以导致匹配失败.这里需要加一个修饰符re.S,即可修正
+# 转义匹配
+# import re
+# content = '(百度)www.baidu.com'
+# result = re.match('\(百度\)www\.baidu\.com', content)
+# print(result)
+# 3.search()
+# import re
+# content = 'Extra stings Hello 1234567 World_This is a Regex Demo Extra stings'
+# # result = re.search('Hello.*?(\d+).*?Demo', content)
+# result = re.match('Hello.*?(\d+).*?Demo', content)
+# print(result)
+# 5.sub()
+# import re
+# content = '541K54yr5oiR54ix5L2g'
+# result = re.sub('\d+', '', content)
+# print(content, result, sep='\n')
+# 6.compile()

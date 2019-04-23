@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/zhihu.html" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter03/zhihu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +14,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="114">
+                    <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="277">
+              <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="84" column="57" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -28,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -81,14 +111,17 @@
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/第三章基本库的使用" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/maoyan.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/result.txt" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/zhihu.html" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="728" />
-    <option name="y" value="12" />
-    <option name="width" value="1173" />
+    <option name="x" value="854" />
+    <option name="y" value="10" />
+    <option name="width" value="1062" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,31 +129,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -141,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.maoyan">
+  <component name="RunManager" selected="Python.xml_test">
     <configuration name="maoyan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,27 +164,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/maoyan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parse_qs_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="others" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/parse_qs_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,13 +235,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xml_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="others" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xml_test" />
         <item itemvalue="Python.maoyan" />
         <item itemvalue="Python.requests_test" />
         <item itemvalue="Python.robots_test" />
         <item itemvalue="Python.quote_test" />
-        <item itemvalue="Python.parse_qs_test" />
       </list>
     </recent_temporary>
   </component>
@@ -291,20 +300,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="728" y="12" width="1173" height="1047" extended-state="0" />
+    <frame x="854" y="10" width="1062" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21176471" weight="0.31013215" />
       <window_info id="Structure" order="1" sideWeight="0.7882353" side_tool="true" weight="0.31037414" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49912587" weight="0.32819384" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88265306" weight="0.48521358" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88265306" weight="0.41840088" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.2986871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3274918" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32713348" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11734694" side_tool="true" weight="0.5345017" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49914965" weight="0.111597374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -329,20 +338,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/roman_to_integer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookie_session/python描述cookie和session">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/图解HTTP/第1章了解Web及网络基础.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-741">
@@ -453,7 +448,6 @@
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/test.png" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/requests/api.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/requests/status_codes.py" />
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/zhihu.html" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/sphinx/util/requests.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/requests/__init__.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/requests/cookies.py" />
@@ -494,10 +488,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/zhihu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3363" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="277">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="84" column="57" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="57" />
         </state>
       </provider>
     </entry>

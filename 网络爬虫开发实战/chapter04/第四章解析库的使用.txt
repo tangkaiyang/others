@@ -7,12 +7,103 @@ XPath,XML Path Language,即XML路径语言,在XML文档中查找信息的语言
 1.XPath概览,
 功能十分强大,提供了非常简洁明了的路径选择表达式.另外,它还提供了超过100个内建函数,用于字符串,数字,时间的匹配以及节点,序列的处理等.
 2.XPath常用规则
-表达式                 描述
-nodename            选取此节点的所有子节点
-/                   从当前节点选取直接子节点
-//                  从当前节点选区子孙节点
-.                   选取当前节点
-..                  选取当前节点的父节点
-@                   选取属性
-如:
-//title[@lang='eng']:代表选择所有名称为title,同时属性lang的值为eng的节点.
+XPath节点
+节点(Node),其中类型的节点:元素,属性,文本,命名空间,处理指令,注释以及文档(根)节点.XML文档是被作为节点树来对待的.
+树的根被称作文档节点或根节点
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bookstore> (文档节点)
+
+<book>
+  <title lang="en"(属性节点)>Harry Potter</title>
+  <author>J K. Rowling</author> (元素节点)
+  <year>2005</year>
+  <price>29.99</price>
+</book>
+
+</bookstore>
+基本值(或称原子值,Atomic value)
+基本值是无父或无子的节点.
+J K. Rowling
+"en"
+项目(Item)
+项目是基本值或者节点
+节点关系
+父(Parent)
+每个元素以及属性都有一个父:book元素是title,author,year以及price元素的父
+子(Children)
+元素节点可有零个,一个或多个子:title,author,year以及price元素都是book元素的子
+同胞(Sibling)
+拥有相同的父的节点:title,author,year以及price元素都是同胞
+先辈(Ancestor)
+某节点的父,父的父,等等:title元素的先辈是book元素和bookstore元素
+后代(Descendant)
+某个节点的子,子的子,等等:bookstore的后代是book,title,author,year以及price元素
+
+XPath语法
+XPath使用路径表达式来选取XML文档中的节点或节点集.节点是通过沿着路径(path)或者步(steps)来选取的
+选取节点
+使用路径表达式.节点是通过沿着路径或者step来选取的
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bookstore>
+
+<book>
+  <title lang="eng">Harry Potter</title>
+  <price>29.99</price>
+</book>
+
+<book>
+  <title lang="eng">Learning XML</title>
+  <price>39.95</price>
+</book>
+
+</bookstore>
+最有用的路径表达式
+表达式             描述
+nodename        选取此节点的所有子节点
+/               从根节点选取
+//              从匹配选择的当前节点选择文档中的节点,而不考虑他们的位置
+.               选取当前节点
+..              选取当前节点的父节点
+@               选取属性
+实例
+路径表达式           结果
+bookstore       选取bookstore元素的所有子节点
+/bookstore      选取根元素bookstore
+                注释:假如路径起始于正斜杠(/),则此路径始终代表到某元素的绝对路径
+bookstore/book  选取属于bookstore的子元素的所有book元素
+//book          选取所有book子元素,而不管他们在文档中的位置
+bookstore//book 选择属于bookstore元素的后代的所有book元素,而不管他们位于bookstore之下的声明位置
+//@lang         选取名为lang的所有属性
+
+谓语(Predicates)
+谓语用来查找某个特定的节点或者包含某个指定的值的节点
+谓语被嵌在方括号中
+路径表达式                   结果
+/bookstore/book[1]          选取属于bookstore子元素的第一个book元素
+/bookstore/book[last()]     选取属于bookstore子元素的最后一个book元素
+/bookstore/book[last()-1]   选取属于bookstore子元素的倒数第二个book元素
+/bookstore/book[position()<3]   选取最前面的两个属于bookstore元素的子元素的book元素
+//title[@lang]              选取所有拥有名为lang的属性的title
+//title[@lang='eng']        选取所有title元素,且这些元素拥有值为eng的lang属性
+/bookstore/book[price>35.00]    选取bookstore元素的所有book元素,且其中的price元素的值须大于35.00
+/bookstore/book[price>35.00]/title  选取bookstore元素中的book元素的所有title元素,且其中的price元素的值须大于35.00
+选取未知节点
+XPath通配符可以用来选取未知的XML元素
+通配符                 描述
+*                   匹配任何元素节点
+@*                  匹配任何属性节点
+node()              匹配任何类型的节点
+实例
+路径表达式               结果
+/bookstore/*        选取bookstore元素的所有子元素
+//*                 选取文档中的所有元素
+//title[@*]         选取所有带有属性的title元素
+选取若干路径
+通过在路径表达式中使用'|'运算符,可以选取若干个路径
+实例
+路径表达式                               结果
+//book/title | //book/price         选取book元素的所有title和price元素
+//title | //price                   选取所有title和price元素
+/bookstore/book/title | //price     选取属于bookstore元素的book元素的所有title元素,以及文档中所有的price元素

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="202" selection-start-line="202" selection-end-line="202" />
+            <state relative-caret-position="-1089">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
@@ -29,8 +27,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+            <state relative-caret-position="448">
+              <caret line="194" column="50" selection-start-line="194" selection-start-column="50" selection-end-line="194" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda3/Lib/site-packages/pyquery/pyquery.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="877" column="8" selection-start-line="877" selection-start-column="8" selection-end-line="877" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+              <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -320,13 +327,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="854" y="10" width="1062" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.3095703" />
       <window_info id="Structure" order="1" sideWeight="0.30075186" side_tool="true" weight="0.3095703" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49912587" weight="0.32819384" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88265306" weight="0.41356674" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.88265306" visible="true" weight="0.41292444" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.2986871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,13 +365,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/图解HTTP/第6章HTTP首部.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="639" column="75" selection-start-line="639" selection-start-column="75" selection-end-line="639" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" />
     <entry file="file://$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -469,13 +470,7 @@
         <state relative-caret-position="-3363" />
       </provider>
     </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/lxml/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python/Python37/Lib/site-packages/lxml/__init__.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -483,45 +478,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/beautifulsoup_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="239" column="48" selection-start-line="239" selection-start-column="48" selection-end-line="239" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/beautifulsoup_test.py" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        <state relative-caret-position="-1089">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/pyquery/pyquery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="877" column="8" selection-start-line="877" selection-start-column="8" selection-end-line="877" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        <state relative-caret-position="448">
+          <caret line="194" column="50" selection-start-line="194" selection-start-column="50" selection-end-line="194" selection-end-column="50" />
         </state>
       </provider>
     </entry>

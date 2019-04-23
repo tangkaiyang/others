@@ -107,3 +107,94 @@ node()              匹配任何类型的节点
 //book/title | //book/price         选取book元素的所有title和price元素
 //title | //price                   选取所有title和price元素
 /bookstore/book/title | //price     选取属于bookstore元素的book元素的所有title元素,以及文档中所有的price元素
+
+运算符及其介绍
+运算符    描述               实例                          返回值
+or      或               age=19 or age=20        如果age是19,则返回True.如果age是21则返回False
+and     与               age>19 and age<21       如果age是20,则返回True.如果age是18,则返回False
+mod     计算除法的余数     5 mod 2                 1
+|       计算两个节点集     //book | //cd           返回所有拥有book和cd元素的节点集
++       加法
+-       减法
+*       乘法
+div     除法
+=       等于
+!=      不等于
+<       小于
+<=      小于或等于
+>       大于
+>=      大于或等于
+
+XPath Axes(轴)
+XML实例文档
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bookstore>
+
+<book>
+  <title lang="eng">Harry Potter</title>
+  <price>29.99</price>
+</book>
+
+<book>
+  <title lang="eng">Learning XML</title>
+  <price>39.95</price>
+</book>
+
+</bookstore>
+XPath轴:轴可定义相对于当前节点的节点集
+轴名称                 结果
+ancestor            选取当前节点的所有先辈(父,祖父等)
+ancestor-or-self    选取当前节点的所有先辈(父,祖父等)以及当前节点本身
+attribute           选取当前节点的所有属性
+child               选取当前节点的所有子节点
+descendant          选取当前节点的所有后代元素(子,孙等)
+descendant-or-self  选取当前节点的所有后代元素(zi,孙等)以及当前节点本身
+following           选取文档中当前节点的结束标签之后的所有节点
+namespace           选取当前节点的所有命名空间节点
+parent              选取当前节点的父节点
+preceding           选取文档中当前节点的开始标签之前的所有节点
+preceding-sibling   选取当前节点之前的所有同级节点
+self                选取当前节点
+位置路径表达式:位置路径可以是绝对的,也可以是相对的
+绝对路径起始于正斜杠(/),而相对路径不会这样.在两种情况中,位置路径均包括一个或多个步,每个步均被斜杠分割
+绝对位置路径:/step/step/...
+相对位置路径:step/step/...
+每个步均根据当前节点集之中的节点来进行计算
+步(step)包括:轴(axis),定义所选节点与当前节点之间的树关系;节点测试(node-test),识别某个轴内部的节点;零个或更多谓语(predicate)更深入地提炼所选的节点集
+步的语法:轴名称::节点测试[谓语]
+例子                              结果
+child::book                 选取所有属于当前节点的子元素的book节点
+attribute::lang             选取当前节点的lang属性
+child::*                    选取当前节点的所有子元素
+attribute::*                选取当前节点的所有属性
+child::text()               选取当前节点的所有文本子节点
+child::node()               选取当前节点的所有子节点
+descendant::book            选取当前节点的所有book后代
+ancestor::book              选取当前节点的所有book父辈
+ancestor-or-self::book      选取当前节点的所有book父辈以及当前节点(如果此节点是book节点)
+child::*/child::price       选取当前节点的所有price孙节点
+http://lxml.de/
+
+4.2使用Beautiful Soup
+Beautiful Soup是Python的一个HTML或XML的解析库,可以用它来方便地从网页中提取数据
+Beautiful Soup提供了一些简单的,Python式的函数来处理导航,搜索,修改分析数等功能.
+它是一个工具箱,通过解析文档为用户提供需要抓取的数据,因为简单,所以不需要多少代码就可以写出一个完整的应用程序.
+Beautiful Soup自动将输入文档转换为Unicode编码,输出文档转换为UTF-8编码.不需要考虑编码方式,除非文档没有指定一个编码方式,
+3.解析器
+Beautiful Soup在解析时实际上依赖解析器,它除了支持Python标准库中的HTML解析器外,还支持一些第三方解析器(如lxml)
+Beautiful Soup支持的解析器
+解析器                 使用方法                    优势                          劣势
+Python标准库   BeautifulSoup(markup, "html.parser") Python的内置标准库,执行速度适中,文档容错能力强    Python2.7.3以及Python3.2.2之前的版本文档容错能力差
+lxml HTML解析器    BeautifulSoup(markup, "lxml")   速度快,文档容错能力强     需要安装C语言库
+lxml XML解析器     BeautifulSoup(markup, "xml")    速度快,唯一支持XML的解析器 需要安装C语言库
+html5lib            BeautifulSoup(markup, "html5lib")   最好的容错性,以浏览器的方式解析文档,生成HTML5格式的文档 速度慢,不依赖外部扩展
+推荐使用BeautifulSoup(markup, 'lxml')
+7.CSS选择器:使用CSS选择器,只需要调用select()方法,传入相应的CSS选择器即可
+Beautiful Soup总结:
+# 推荐使用lxml解析库,必要时使用html.parser, soup = BeautifulSoup(html, 'lxml')
+# 节点选择筛选功能弱但是速度快
+# 建议使用find()或者find_all()查询匹配单个结果或者多个结果
+# 如果对CSS选择器熟悉的话,可以使用select()方法选择
+4.3 使用pyquery
+对Web有所涉及,比较喜欢用CSS选择器,对jQuery有所了解,使用pyquery

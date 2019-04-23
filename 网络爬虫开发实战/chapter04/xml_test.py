@@ -76,11 +76,53 @@
 # result = html.xpath('//li/a/@href')
 # print(result) # 返回一个列表
 # 11.属性多值匹配:某些节点的某个属性可能有多个值,需要contains()函数
-from lxml import etree
-text = '''
-<li class="li li-first"><a href="link.html">first item</a></li>
-'''
-html = etree.HTML(text)
-# result = html.xpath('//li[@class="li li-first"]/a/text()')
-result = html.xpath('//li[contains(@class="li")]/a/text()')
-print(result)
+# from lxml import etree
+# text = '''
+# <li class="li li-first"><a href="link.html">first item</a></li>
+# '''
+# html = etree.HTML(text)
+# # result = html.xpath('//li[@class="li li-first"]/a/text()')
+# result = html.xpath('//li[contains(@class, "li")]/a/text()')
+# print(result)
+# 12.多属性匹配:根据多个属性确定一个节点,运算符and连接
+# from lxml import etree
+# text = '''
+# <li class="li li-first" name="item"><a href="link.html">first item</a></li>
+# '''
+# html = etree.HTML(text)
+# print(html)
+# result = html.xpath('//li[contains(@class, "li") and @name="item"]/a/text()')
+# print(result)
+# 13.按序选择:选择的时候某些属性可能同时匹配多个节点
+# from lxml import etree
+# with open('./test.html', 'r') as fd:
+#     text = fd.read()
+#     # print(text)
+# html = etree.HTML(text)
+# result = html.xpath('//li[1]/a/text()')
+# print(result)
+# result1 = html.xpath('//li[last()]/a/text()')
+# print(result1)
+# result2 = html.xpath('//li[position()<3]/a/text()')
+# print(result2)
+# result3 = html.xpath('//li[last()-2]/a/text()')
+# print(result3)
+# 14.节点轴选择:子元素(child),兄弟元素(sibling),父元素(parent),祖先元素(ancestor)等
+# with open('./test.html', 'r') as fd:
+#     text = fd.read()
+# from lxml import etree
+# html = etree.HTML(text)
+# result = html.xpath('//li[1]/ancestor::*')
+# print(result)
+# result1 = html.xpath('//li[1]/ancestor::div')
+# print(result1)
+# result2 = html.xpath('//li[1]/attribute::*')
+# print(result2)
+# result3 = html.xpath('//li[1]/child::a[@href="link1.html"]')
+# print(result3)
+# result4 = html.xpath('//li[1]/descendant::span')
+# print(result4)
+# result5 = html.xpath('//li[1]/following::*') # 当前节点的结束标签之后的所有节点
+# print(result5)
+# result6 = html.xpath('//li[1]/following-sibling::*') # 之后的所有同级节点
+# print(result6)

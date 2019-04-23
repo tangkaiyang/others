@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,38 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1089">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="194" column="50" selection-start-line="194" selection-start-column="50" selection-end-line="194" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Anaconda3/Lib/site-packages/pyquery/pyquery.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="877" column="8" selection-start-line="877" selection-start-column="8" selection-end-line="877" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+            <state relative-caret-position="472">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -67,8 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python描述cookie和session" />
-        <option value="$PROJECT_DIR$/cookie.py" />
         <option value="$PROJECT_DIR$/cookie_session/python描述cookie和session" />
         <option value="$PROJECT_DIR$/cookie_session/session.py" />
         <option value="$PROJECT_DIR$/roman_to_integer.py" />
@@ -113,10 +86,13 @@
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/beautifulsoup_test.py" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" />
       </list>
     </option>
   </component>
@@ -131,31 +107,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="other" type="b2602c69:ProjectViewProjectNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -176,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pyquery_test">
+  <component name="RunManager" selected="Python.csv_try">
     <configuration name="beautifulsoup_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maoyan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="csv_try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,11 +158,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/maoyan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="json_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="others" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="requests_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="zhihu_spide" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,32 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/requests_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="xml_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="others" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/xml_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csv_try" />
+        <item itemvalue="Python.json_test" />
+        <item itemvalue="Python.zhihu_spide" />
         <item itemvalue="Python.pyquery_test" />
         <item itemvalue="Python.beautifulsoup_test" />
-        <item itemvalue="Python.xml_test" />
-        <item itemvalue="Python.maoyan" />
-        <item itemvalue="Python.requests_test" />
       </list>
     </recent_temporary>
   </component>
@@ -365,45 +317,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第7章确保Web安全的HTTPS.txt" />
-    <entry file="file://$PROJECT_DIR$/图解HTTP/第10章构建Web内容的技术.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图解HTTP/第11章Web的攻击技术.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter01/第一章开发环境配置.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter01/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter02/第二章爬虫基础.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -479,19 +392,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/beautifulsoup_test.py" />
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" />
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="184" column="37" lean-forward="true" selection-start-line="184" selection-start-column="37" selection-end-line="184" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/第四章解析库的使用.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1089">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -502,10 +413,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py">
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="194" column="50" selection-start-line="194" selection-start-column="50" selection-end-line="194" selection-end-column="50" />
+        <state relative-caret-position="38">
+          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/explore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12024" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1527" column="8" selection-start-line="1527" selection-start-column="8" selection-end-line="1527" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#169#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.csv">
+      <provider editor-type-id="text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

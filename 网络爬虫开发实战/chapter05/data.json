@@ -1,0 +1,9 @@
+[{
+    "name": "Bob",
+    "gender": "male",
+    "birthday": "1992-10-18"
+}, {
+    "name": "赛琳娜",
+    "gender": "female",
+    "birthday": "1995-10-18"
+}]

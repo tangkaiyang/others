@@ -198,3 +198,6 @@ Beautiful Soup总结:
 # 如果对CSS选择器熟悉的话,可以使用select()方法选择
 4.3 使用pyquery
 对Web有所涉及,比较喜欢用CSS选择器,对jQuery有所了解,使用pyquery
+初始化pyquery的时候,需要传入HTML文本来初始化一个PyQuery对象.
+多种初始化方式,比如直接传入字符串,传入URL,传入文件名,等等
+

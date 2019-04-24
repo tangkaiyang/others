@@ -69,6 +69,7 @@ MongoDB是由C++语言编写的非关系型数据库,是一个基于分布式文
 它的字段值可以包含其他文档,数组及文档数组非常灵活,
 新建bin目录同级目录data,data下新建db作为存储数据目录
 mongod --dbpath "数据库路径"
+设置mongodb为系统服务,进入bin目录下打开cmd命令:./mongod --bind_ip 0.0.0.0 --logpath "C:\Program Files\MongoDB\Server\4.0\log\mongodb.log" --logappend --dbpath "C:\Program Files\MongoDB\Server\4.0\data\db" --port 27017 --serviceName "MongoDB" --serviceDisplayName "MongoDB" --install
 3.指定数据库
 查询条件中的比较符号
 符号                  含义                      示例
@@ -88,3 +89,41 @@ $mod        数字模操作           {'age': {'$mod': [5, 0]}                  
 $text       文本查询            {'$text': {'$search': 'Mike'}}              text类型的属性中包含Mike字符串
 $where      高级条件查询      {'$where': 'obj.fans_count == obj.follows_count'}   自身粉丝数等于关注数
 7.计数
+
+5.3.2 Redis存储
+Redis是一个基于内存的高效的键值型非关系型数据库,存取效率极高,而且支持多种存储数据结构,使用也非常简单
+redis-py库的安装:pip install redis
+2.redis-py库提供了两个类Redis和StrictRedis来实现Redis的命令操作.
+4.键操作
+键的一些判断和操作方法
+方法              作用                  参数说明                示例                  示例说明                   示例结果
+exists(name)    判断一个键是否存在   name:键名             redis.exists('name')    是否存在name这个键             True
+delete(name)    删除一个键           name:键名             redis.delete('name')    删除name这个键                   1
+type(name)      判断键类型           name:键名             redis.type('name')      判断name这个键类型             b'string'
+keys(pattern)   获取所有符合规则的键  pattern:匹配规则        redis.keys('n*')        获取所有以n开头的键          [b'name']
+randomkey()     获取随机的一个键                            randomkey()             获取随机的一个键                b'name'
+rename(src, dst)重命名键            src:原键名,dst:新键名 redis.rename('name','nickname') 将name重命名为nickname   True
+dbsize()        获取当前数据库中的键的数目                   dbsize()                获取当前数据库中的键的数目       100
+expire(name, time)设定键的过期时间,单位为秒;name:键名/time:秒数;redis.expire('name', 2);将name键过期时间设置为2秒;True
+ttl(name);获取键的过期时间,单位为秒,-1表示永久不过期;name:键名;redis.ttl('name');获取name这个键的过期时间;-1
+move(name, db);将键移动到其他数据库;name:键名/db:数据库代号;move('name', 2);将name移动到2号数据库;True
+flushdb();删除当前选择数据库中的所有键;   ;flushdb();删除当前选择数据库中的所有键;True
+flushall();删除所有数据库中的所有键;    ;flushall();删除所有数据库中的所有键;True
+5.字符串操作
+Redis支持最基本的键值对形式存储
+键值对形式存储
+方法;作用;参数说明;示例;示例说明;示例结果
+set(name, value);给数据库中键为name的string赋予属性value;name:键名/value:值;redis.set('name', 'Bob');给name这个键的value赋值为Bob;True
+get(name);返回数据库中键为name的string的value;name:键名;redis.get('name');返回name这个键的value;b'Bob'
+getset(name, value);给数据库中键为name的string赋予值value并返回上次的value;name:键名/value:新值;redis.getset('name', 'Mike');赋值name为Mike并得到上次的value;b'Bob'
+mget(keys, *args);返回多个键对应的value;keys:键的列表;redis.mget(['name', 'nickname']);返回name和nickname的value;[b'Mike', b'Miker']
+setnx(name, value);如果不存在这个键值对,则更新value,否则不变;name:键名;redis.setnx('newname', 'James');如果newname这个键不存在,则设置值为James;这一次运行的结果是True,第二次运行的结果是False
+setex(name, time, value);设置可以对应的值为string类型的value,并制定此键值对应的有效期;name:键名/time:有效期/value:值;redis.setex('name', 1, 'James');将name这个键的值设为James,有效期为1秒;True
+setrange(name, offset, value);设置指定键的value值的子字符串;name:键名/offset:偏移量/value:值;redis.set('name', 'Hello') redis.setrange('name', 6, 'World');设置name为Hello字符串,并在index为6的位置补World;11,修改后的字符串长度
+mset(mapping);批量赋值;mapping:字典;redis.mset({'name1': 'Durant', 'name2': 'James'});将name1设为Durant,name2设为James;True
+msetnx(mapping);键均不存在时才批量赋值;mapping:字典;redis.msetnx({'name3': 'Smith', 'name4': 'Curry'});在name3和name4均不能存在的情况下才设置二者值;True
+incr(name, amount=1);键为name的value增量操作,默认为1,键不存在则被创建并设为amount;name:键名/amount:增长的值;redis.incr('age', 1);age对应的值增1,若不存在,则会创建并设置为1;1,及修改后的值
+decr(name, amount=1);键为name的vlaue减值操作,默认为1,键不存在则被创建并将value设置为-amount;name:键名/amount:减少的值;redis.decr('age', 1);age对应的值减1,若不存在,则会创建并设置为-1;-1,即修改后的值
+append(key, value);键为name的string的值附加vlaue;key:键名;redis.append('nickname', 'OK');向键为nickname的值后追加OK;13,即修改后的字符串长度
+substr(name, start, end=-1);返回键为name的string的字串;name:键名/start:起始索引/end:终止索引,默认为-1,表示截取到末尾;redis.substr('name', 1, 4);返回键为name的值的字符串,截取索引为1~4的字符;b'ello'
+getrange(key, start, end);获取键的value值从start到end的子字符串;key:键名/start:起始索引/end:终止索引;redis.getrange('name', 1, 4);返回键为name的值的字符串,截取索引为1~4的字符;b'ello'

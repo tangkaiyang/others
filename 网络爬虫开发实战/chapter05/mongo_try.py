@@ -98,4 +98,15 @@ collection = db['students']
 # print(result.matched_count, result.modified_count)
 # # update_many()方法,将所有符合条件的数据都更新
 # condition = {'age': {'$gt': 20}}
-# 11.删除:
+# 11.删除:直接调用remove()方法指定删除的条件即可,此时符合条件的所有数据均会被删除.
+# result = collection.remove({'name': 'Kevin'})
+# print(result)
+# # 新的推荐方法--delete_one()和delete_many()
+# result = collection.delete_one({'name': 'Kevin'}) # 删除第一条符合条件的数据
+# print(result) # 返回结果都是DeleteResult类型,
+# print(result.deleted_count)
+# result = collection.delete_many({'age': {'$lt': 24}}) # 删除所有符合条件的数据
+# print(result.deleted_count) # 调用delete_count属性获取删除的数据条数
+# 12.其他操作:
+# # PyMongo提供了一些组合方法,如find_one_and_delete(),find_one_and_replace()和find_one_and_update(),
+# # 他们是查找后删除,替换和更新的操作,用法与上述方法一致

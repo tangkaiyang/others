@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            <state relative-caret-position="566">
+              <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -27,8 +28,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="750">
+              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Python37/Lib/site-packages/pymongo/collection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="1626" column="8" selection-start-line="1626" selection-start-column="8" selection-end-line="1626" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -104,8 +114,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="854" />
-    <option name="y" value="10" />
+    <option name="x" value="852" />
+    <option name="y" value="15" />
     <option name="width" value="1062" />
     <option name="height" value="1047" />
   </component>
@@ -285,20 +295,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="854" y="10" width="1062" height="1047" extended-state="0" />
+    <frame x="852" y="15" width="1062" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.3095703" />
       <window_info id="Structure" order="1" sideWeight="0.30075186" side_tool="true" weight="0.3095703" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49912587" weight="0.32819384" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88265306" weight="0.41292444" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.2986871" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88265306" weight="0.22757111" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.26914662" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29791895" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.50656456" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11734694" side_tool="true" weight="0.5345017" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49914965" weight="0.25164112" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -323,8 +333,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/proxy_test.py" />
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/cookies.txt" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/cookies1.txt" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/reason_test.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/urlparse_test.py" />
@@ -401,13 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda3/Lib/site-packages/pyquery/pyquery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="877" column="8" selection-start-line="877" selection-start-column="8" selection-end-line="877" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda3/Lib/site-packages/pyquery/pyquery.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -415,35 +417,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/explore.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12024" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1527" column="8" selection-start-line="1527" selection-start-column="8" selection-end-line="1527" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/explore.txt" />
+    <entry file="file://D:/Anaconda3/Lib/typing.py" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data1.json" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -454,41 +432,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py">
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.csv" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" />
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py" />
+    <entry file="file://D:/Python/Python37/Lib/site-packages/pymongo/results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+        <state relative-caret-position="225">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py">
+    <entry file="file://D:/Python/Python37/Lib/site-packages/pymongo/collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="84" column="69" selection-start-line="84" selection-start-column="69" selection-end-line="84" selection-end-column="69" />
-          <folding>
-            <element signature="e#201#215#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="1626" column="8" selection-start-line="1626" selection-start-column="8" selection-end-line="1626" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="566">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="750">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
         </state>
       </provider>
     </entry>

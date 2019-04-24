@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="539">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -42,8 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cookie_session/python描述cookie和session" />
-        <option value="$PROJECT_DIR$/cookie_session/session.py" />
         <option value="$PROJECT_DIR$/roman_to_integer.py" />
         <option value="$PROJECT_DIR$/someEnglish" />
         <option value="$PROJECT_DIR$/LeetCode/015_3Sum.py" />
@@ -92,7 +97,9 @@
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py" />
       </list>
     </option>
   </component>
@@ -128,8 +135,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.csv_try">
-    <configuration name="beautifulsoup_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mongo_try">
+    <configuration name="MySQL_try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/beautifulsoup_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pyquery_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mongo_try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter04/pyquery_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mongo_try" />
+        <item itemvalue="Python.MySQL_try" />
         <item itemvalue="Python.csv_try" />
         <item itemvalue="Python.json_test" />
         <item itemvalue="Python.zhihu_spide" />
-        <item itemvalue="Python.pyquery_test" />
-        <item itemvalue="Python.beautifulsoup_test" />
       </list>
     </recent_temporary>
   </component>
@@ -279,20 +286,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="854" y="10" width="1062" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.3095703" />
       <window_info id="Structure" order="1" sideWeight="0.30075186" side_tool="true" weight="0.3095703" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49912587" weight="0.32819384" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.88265306" visible="true" weight="0.41292444" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88265306" weight="0.41292444" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.2986871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2986871" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29791895" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11734694" side_tool="true" weight="0.5345017" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49914965" weight="0.25164112" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -317,17 +323,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="e#165#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/auth_test.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/proxy_test.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/cookies.txt" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter03/cookies1.txt" />
@@ -460,10 +455,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.csv">
-      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py">
@@ -473,10 +468,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="84" column="69" selection-start-line="84" selection-start-column="69" selection-end-line="84" selection-end-column="69" />
+          <folding>
+            <element signature="e#201#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/第5章数据存储.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="539">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/mongo_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>

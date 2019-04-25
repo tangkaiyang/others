@@ -148,11 +148,100 @@
 # # 显式等待:隐式等待的效果其实并没有那么好,因为我们只规定了一个固定时间,而页面的加载时间会受到网络条件的影响
 # # 显示等待:指定要查找的节点,然后指定一个最长等待时间.
 # # 如果在规定时间内加载出来了这个节点,就返回查找的节点;如果到了规定时间依然没有加载出该节点,则抛出超时异常
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-browser = webdriver.Chrome()
-browser.get('https://www.taobao.com')
-wait = WebDriverWait(browser, 10)
-input = wait.until(EC.presence_of_element_located(()))
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# browser = webdriver.Chrome()
+# browser.get('https://www.taobao.com')
+# wait = WebDriverWait(browser, 10) # 引入WebDriverWait对象,指定最长等待时间,然后调用until()方法,传入要等待条件expected_conditions.
+# input = wait.until(EC.presence_of_element_located((By.ID, 'q'))) # 这里传入presence_of_element_located这个条件,代表节点出现,参数是节点的定位元组,也就是ID为q的节点搜索框
+# button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.btn-search'))) # 这里传入的条件是element_to_be_clickable,也就是可点击,查找按钮时查找CSS选择器为.btn-search的按钮
+# print(input, button)
+# 12.前进和后退:back()后退,forward()前进
+# import time
+# from selenium import webdriver
+# browser = webdriver.Chrome()
+# browser.get('https://www.baidu.com/')
+# browser.get('https://www.taobao.com/')
+# browser.get('https://www.python.org')
+# browser.back()
+# time.sleep(1)
+# browser.forward()
+# time.sleep(1)
+# browser.close()
+# 13.Cookies:对Cookies进行操作,获取,添加,删除Cookies等
+# from selenium import webdriver
+# browser = webdriver.Chrome()
+# browser.get('https://www.zhihu.com/explore')
+# print(browser.get_cookies())
+# browser.add_cookie({'name': 'name', 'domain': 'www.zhihu.com', 'value': 'germey'})
+# print(browser.get_cookies())
+# browser.delete_all_cookies()
+# print(browser.get_cookies())
+# 14.选项卡管理:
+# import time
+# from selenium import webdriver
+# browser = webdriver.Chrome()
+# browser.get('https://www.baidu.com')
+# browser.execute_script('window.open()') # 调用execute_script()方法,传入js语句window.open()新开启一个选项卡
+# print(browser.window_handles) # window_handles获取当前开启的所有选项卡
+# browser.switch_to.window(browser.window_handles[1]) # 跳转至第2个选项卡
+# browser.get('https://www.taobao.com')
+# time.sleep(1)
+# browser.switch_to.window(browser.window_handles[0]) # 跳转至第1个选项卡
+# browser.get('https://python.org')
+# time.sleep(3)
+# browser.close()
+# browser.quit()
+# 15.异常处理:超时,节点未找到等错误,一旦出现此类错误,程序便不会继续执行了.可以try except语句来获取各种异常
+# from selenium import webdriver
+# from selenium.common.exceptions import  TimeoutException, NoSuchElementException
+# browser = webdriver.Firefox()
+# browser.get('https://www.baidu.com')
+# browser.find_element_by_id('hello') # id='hello'的元素不存在,抛出NoSuchElementException异常,节点未找到
+# try:
+#     browser.get('https://www.baidu.com')
+# except TimeoutException:
+#     print('Time Out')
+# try:
+#     browser.find_element_by_id('hello')
+# except NoSuchElementException:
+#     print('No Element')
+# finally:
+#     browser.close()
+# from selenium import webdriver
+# browser = webdriver.PhantomJS()
+# browser.get('https://www.baidu.com')
+# print(browser.current_url)
+# browser.close()
+
+# # 使用Firefox的无头版本地带PhantomJS
+# from selenium.webdriver import Firefox
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.firefox.options import Options
+# from selenium.webdriver.support import expected_conditions as ec
+# from selenium.webdriver.support.wait import WebDriverWait
+#
+# if __name__ == '__main__':
+#     options = Options()
+#     options.add_argument('-headless') # 无头参数
+#     # driver = Firefox(executable_path='geckodriver', firefox_options=options) # 设置了环境变量,第一个参数可以省略,否则传绝对路径
+#     driver = Firefox(options=options)
+#     wait = WebDriverWait(driver, timeout=10)
+#     driver.get('http://www.google.com')
+#     wait.until(ec.visibility_of_element_located((By.NAME, 'q'))).send_keys('headless firefox' + Keys.ENTER)
+#     wait.until(ec.visibility_of_element_located((By.CSS_SELECTOR, '#ires a'))).click()
+#     print(driver.page_source)
+#     driver.quit()
+
+# # 使用Chrome的无头版本代替PhantomJS
+# from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+# options = Options()
+# options.add_argument('-headless')
+# driver = webdriver.Chrome(options=options)
+# driver.get('https://www.baidu.com')
+# print(driver.current_url)
+# driver.close()

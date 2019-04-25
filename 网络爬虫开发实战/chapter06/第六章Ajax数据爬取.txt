@@ -1,0 +1,8 @@
+第六章 Ajax数据爬取
+requests模拟Ajax请求
+6.1 什么是Ajax
+Ajax,Asynchronous JavaScript and XML,异步的JavaScript和XML
+利用js在保障页面不被刷新,页面链接不改变的情况下与服务器交换数据并更新部分网页的技术
+Network中的xhr,其实是Ajax的特殊请求类型
+6.3 Ajax结果提取
+6.4 分析Ajax爬取今日头条街拍美图

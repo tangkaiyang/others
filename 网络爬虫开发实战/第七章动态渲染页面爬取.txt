@@ -1,0 +1,8 @@
+第七章 动态渲染页面爬取
+Ajax是js动态渲染的衙门的一种情形,通过直接分析Ajax,可以借助requests或urllib来实现数据爬取
+使用模拟浏览器运行的方式实现爬取,可见即可爬
+Python模拟浏览器运行的库,Selenium,Splash,PyV8,Ghost等
+7.1Selenium的使用
+3.声明浏览器对象:支持Chrome,Firefox,Edge等,还有Android,BLackBerry等手机,也支持PhantomJS
+4.访问页面:get()方法请求页面
+5.查找节点:id,name,Xpath,CSS选择器

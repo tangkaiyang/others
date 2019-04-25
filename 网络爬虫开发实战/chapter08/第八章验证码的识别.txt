@@ -1,0 +1,8 @@
+第八章验证码的识别
+普通图形验证码,极验滑动验证码,点触验证码,微博宫格验证码
+8.1 图形验证码的识别
+1.利用OCR技术识别图形验证码
+tesserocr库,OCR识别验证码
+OCR:Optical Character Recognition,光学字符识别,
+tesserocr是Python的一个OCR识别库,对tesseract做的一层Python API封装
+安装tesseract

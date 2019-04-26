@@ -6,3 +6,10 @@ tesserocr库,OCR识别验证码
 OCR:Optical Character Recognition,光学字符识别,
 tesserocr是Python的一个OCR识别库,对tesseract做的一层Python API封装
 安装tesseract
+安装tesserocr,pip install <packagename>.whl,下载wheel包然后安装,切忌pip install tesserocr直接安装
+tesseract image.png result -l eng
+image.png为图片名称,result为结果保存的目标文件名称,-l指定使用的语言包,eng指定为英文
+windows中shell中通知执行两个命令行操作使用|,或>
+5.验证码处理
+识别和实际结果有偏差,需要做一下额外的处理,如转灰度,二值化等操作.
+8.2 极验滑动验证码的识别:需要拖动滑块才可以完成验证

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,19 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/tesserocr_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -50,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urllib_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/auth_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/proxy_test.py" />
@@ -101,6 +89,7 @@
         <option value="$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-516756811/tesserocr/_tesserocr.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/tesserocr_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" />
       </list>
     </option>
   </component>
@@ -114,7 +103,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="others" type="b2602c69:ProjectViewProjectNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="others" type="b2602c69:ProjectViewProjectNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="others" type="b2602c69:ProjectViewProjectNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -294,7 +307,7 @@
     <frame x="806" y="0" width="1121" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.30823293" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.30747923" />
       <window_info id="Structure" order="1" sideWeight="0.30075186" side_tool="true" weight="0.3095703" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -342,13 +355,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter04/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/explore.txt" />
     <entry file="file://D:/Anaconda3/Lib/typing.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" />
@@ -473,8 +479,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

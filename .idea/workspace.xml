@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="36">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+              <folding>
+                <element signature="e#166#196#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/request_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/auth_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/proxy_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/cookies_test.py" />
@@ -90,11 +101,13 @@
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/tesserocr_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="806" />
+    <option name="x" value="730" />
+    <option name="y" value="62" />
     <option name="width" value="1121" />
     <option name="height" value="1047" />
   </component>
@@ -103,31 +116,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="others" type="b2602c69:ProjectViewProjectNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -304,8 +293,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="806" y="0" width="1121" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="730" y="62" width="1121" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.30747923" />
       <window_info id="Structure" order="1" sideWeight="0.30075186" side_tool="true" weight="0.3095703" />
@@ -355,7 +343,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/explore.txt" />
     <entry file="file://D:/Anaconda3/Lib/typing.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.json" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/json_test.py" />
@@ -477,17 +464,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="e#166#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@
 # @Time     : 2019/4/28 16:24
 # @Author   : tangky
 # @Site     : 
-# @File     : storage_module.py
+# @File     : db.py
 # @Software : PyCharm
 
 # 定义一个类来操作数据库的有序集合,定义一些方法来实现分数的设置,代理的获取等
@@ -75,7 +75,7 @@ class RedisClient():
         :param proxy: 代理
         :return: 是否存在
         """
-        return not self.db.zscore(REDIS_KEY, proxy) == None
+        return not self.db.zscore(REDIS_KEY, proxy) is None
 
     def max(self, proxy):
         """

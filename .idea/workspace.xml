@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0d2ff4-62b4-434f-9a77-0a4c5601427a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/SudokuCrack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/chaojiying.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/cracktouclick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/storage_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/proxy_try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/others.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/others.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,54 +20,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/chaojiying.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#175#190#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/SudokuCrack.py">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/storage_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+            <state relative-caret-position="632">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
-                <element signature="e#331#342#0" expanded="true" />
+                <element signature="e#347#359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Python/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter07/selenium_try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="198">
+              <caret line="219" column="40" selection-start-line="219" selection-start-column="40" selection-end-line="219" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py">
+        <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/proxy_try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="179" column="54" selection-start-line="179" selection-start-column="54" selection-end-line="179" selection-end-column="54" />
+            <state relative-caret-position="390">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="149" selection-end-column="37" />
               <folding>
-                <element signature="e#166#188#0" expanded="true" />
+                <element signature="e#2663#2693#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,10 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urlparse_test.py" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/unurlparse_test.py" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urlunparse_test.py" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urlsplit_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urljoin_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/urlencode_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter03/parse_qs_test.py" />
@@ -134,17 +118,21 @@
         <option value="$PROJECT_DIR$/网络爬虫开发实战/hupu.html" />
         <option value="$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-516756811/tesserocr/_tesserocr.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/tesserocr_test.py" />
-        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/dccode_test.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/chaojiying.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/cracktouclick.py" />
         <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter08/SudokuCrack.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/proxy_try.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/storage_module.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/error.py" />
+        <option value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/storage_module.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="876" />
     <option name="y" value="8" />
     <option name="width" value="1034" />
@@ -155,7 +143,46 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="other" type="b2602c69:ProjectViewProjectNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="网络爬虫开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="proxypool" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -167,6 +194,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\other\网络爬虫开发实战\chapter09\Proxy\proxypool" />
+      <recent name="D:\PycharmProjects\other\网络爬虫开发实战\chapter09\Proxy" />
       <recent name="D:\PycharmProjects\others\网络爬虫开发实战\chapter07" />
     </key>
   </component>
@@ -182,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tesserocr_test">
+  <component name="RunManager" selected="Python.proxy_try">
     <configuration name="flask_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="taobao_pull" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="proxy_try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="others" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络爬虫开发实战/chapter09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter07/taobao_pull.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络爬虫开发实战/chapter09/proxy_try.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.proxy_try" />
         <item itemvalue="Python.tesserocr_test" />
         <item itemvalue="Python.hupu" />
         <item itemvalue="Python.tornado_test" />
         <item itemvalue="Python.flask_test" />
-        <item itemvalue="Python.taobao_pull" />
       </list>
     </recent_temporary>
   </component>
@@ -335,20 +364,20 @@
     <frame x="876" y="8" width="1034" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.30747923" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.69924814" weight="0.30722892" />
       <window_info id="Structure" order="1" sideWeight="0.30075186" side_tool="true" weight="0.3095703" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49497992" weight="0.32713348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86646587" weight="0.4737418" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.30694142" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86646587" weight="0.33150986" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49914965" weight="0.30634573" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7044257" weight="0.49945828" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7044257" visible="true" weight="0.19146608" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13453816" side_tool="true" weight="0.4737418" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.80716544" weight="0.2383532" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.80716544" weight="0.23741794" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,18 +412,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/zhihu_spide.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#169#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/data.csv" />
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/csv_try.py" />
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter05/MySQL_try.py" />
     <entry file="file://D:/Python/Python37/Lib/site-packages/pymongo/results.py" />
     <entry file="file://D:/Python/Python37/Lib/site-packages/pymongo/collection.py" />
@@ -465,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter07/selenium_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="225" column="1" lean-forward="true" selection-start-line="225" selection-start-column="1" selection-end-line="225" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter07/第七章动态渲染页面爬取.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -520,34 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python/Python37/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1519">
           <caret line="1112" column="8" selection-start-line="1112" selection-start-column="8" selection-end-line="1112" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="179" column="54" selection-start-line="179" selection-start-column="54" selection-end-line="179" selection-end-column="54" />
-          <folding>
-            <element signature="e#166#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -557,6 +543,16 @@
           <caret line="144" column="12" lean-forward="true" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
           <folding>
             <element signature="e#168#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/SudokuCrack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
+          <folding>
+            <element signature="e#331#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -571,6 +567,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/第八章验证码的识别.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/Python/Python37/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -578,12 +581,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/SudokuCrack.py">
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter08/jycode_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+        <state relative-caret-position="750">
+          <caret line="179" column="54" selection-start-line="179" selection-start-column="54" selection-end-line="179" selection-end-column="54" />
           <folding>
-            <element signature="e#331#342#0" expanded="true" />
+            <element signature="e#166#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter07/selenium_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="219" column="40" selection-start-line="219" selection-start-column="40" selection-end-line="219" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/proxy_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="149" selection-end-column="37" />
+          <folding>
+            <element signature="e#2663#2693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/第九章代理的使用.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络爬虫开发实战/chapter09/Proxy/proxypool/storage_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <element signature="e#347#359#0" expanded="true" />
           </folding>
         </state>
       </provider>

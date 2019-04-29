@@ -10,9 +10,9 @@ import aiohttp
 import asyncio
 import time
 
-VALID_STATUS_CODES = [200]
+VALID_STATUS_CODES = [200] # 包含了正常的状态码的列表
 TEST_URL = 'http://www.baidu.com'
-BATCH_TEST_SIZE = 100
+BATCH_TEST_SIZE = 100 # 批量测试的最大值,可避免代理池过大时一次性测试全部代理导致内存开销过大
 
 
 class Tester():
@@ -45,7 +45,7 @@ class Tester():
 
     def run(self):
         """
-        测试主函数
+        测试主函数:获取了所有的代理列表,使用aiohttp分配任务,启动运行,进行异步检测
         :return: None
         """
         print('测试器开始运行')
